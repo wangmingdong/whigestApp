@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <!--地图容器-->
+  <map id="myMap"
+    markers="{{markers}}"
+    style="width:100%;height:{{height}}px;"
+    longitude="{{longitude}}"
+    enable-3D="{{true}}"
+     polyline="{{polyline}}"
+     include-points="{{polyline}}"
+    latitude="{{latitude}}" scale='18'  show-location>
+  </map>
+  <cover-view class="fix-options">
+    <button class="fix-opts-btn" bindtap='refreshMap'>
+      <cover-image class="fix-opts-icon" src="./../../imgs/map-marker.png"></cover-image>
+    </button>
+  </cover-view>
+</view>

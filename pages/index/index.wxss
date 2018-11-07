@@ -1,0 +1,16 @@
+/**index.wxss**/
+.fix-options{
+  position:absolute;
+  right:50rpx;
+  bottom:50rpx;
+}
+
+.fix-opts-btn{
+  /* width: 100rpx; */
+}
+
+.fix-opts-icon{
+  width: 50rpx;
+  height: 50rpx;
+  margin: 20rpx;
+}
