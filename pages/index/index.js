@@ -3,7 +3,7 @@
 const app = getApp()
 
 // 引入SDK核心类
-var QQMapWX = require('../../libs/qqmap/qqmap-wx-jssdk.js')
+// var QQMapWX = require('../../libs/qqmap/qqmap-wx-jssdk.js')
 var qqmapsdk
 Page({
   data: {
@@ -20,17 +20,19 @@ Page({
 
   onLoad: function () {
     // 实例化API核心类
-    qqmapsdk = new QQMapWX({
-      key: app.globalData.qqmapKey
-    });
+    // qqmapsdk = new QQMapWX({
+    //   key: app.globalData.qqmapKey
+    // });
   },
 
   onReady: function () {
     // 使用 wx.createMapContext 获取 map 上下文
-    this.mapCtx = wx.createMapContext('myMap')
+    // this.mapCtx = wx.createMapContext('myMap')
   },
 
   onShow: function () {
+    wx.redirectTo({ url: '../../pages/txMap/txMap'})
+    return
     var _this = this;
     wx.getSystemInfo({
       success: (res) => {

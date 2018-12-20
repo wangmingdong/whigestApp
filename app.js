@@ -37,7 +37,7 @@ App({
     userInfo: null,
     qqmapKey: 'ZKIBZ-VWDK6-EIMSG-M6BKQ-Y2XHJ-HHFU7',
     sn: 'e36Dksel4Cy3IwzXFjnXmo056zTWufn',
-    latitude: '34.277135',
-    longitude: '108.074945'
+    latitude: 34.277135,
+    longitude: 108.074945
   }
 })

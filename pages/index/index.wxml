@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <!--地图容器-->
-  <map id="myMap"
+  <!-- <map id="myMap"
     markers="{{markers}}"
     style="width:100%;height:{{height}}px;"
     longitude="{{longitude}}"
@@ -14,5 +14,5 @@
     <button class="fix-opts-btn" bindtap='refreshMap'>
       <cover-image class="fix-opts-icon" src="./../../imgs/map-marker.png"></cover-image>
     </button>
-  </cover-view>
+  </cover-view> -->
 </view>
